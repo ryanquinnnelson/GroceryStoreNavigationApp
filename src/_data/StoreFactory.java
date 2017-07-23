@@ -123,13 +123,35 @@ public class StoreFactory
         Item i12   = new HouseholdItem("Shaving Razers", 0, "Supply Co", 50, true, true, 2.00, 5.00, plan.getBin(53),false);
         Item i13   = new FoodItem("Lettuce", 1,"Johnson's Farm", 15, true, false, 0.20, 0.75, plan.getBin(41), facts, "pound", 10, "Produce", "July 1, 2016", "Vegan");
         Item i14   = new FoodItem("Donuts", 1, "Baker Five", 5, true, false, 1.50, 2.50, plan.getBin(70), facts, "unit", 15, "Breads","July 15, 2016", "Vegetarian");
-        Item i15   = new FoodItem("Yogurt", 1, "Billy's Dairy" , 1, true, false, 1.50, 4.00, plan.getBin(12), facts, "ounce", 30, "Dairy", "June 29, 2016",  "Vegetarian");
+        Item i15   = new FoodItem("Yogurt", 1, "Billy's Dairy" , 1, true, false, 1.50, 4.00, plan.getBin(1), facts, "ounce", 30, "Dairy", "June 29, 2016",  "Vegetarian");
         Item i16   = new FoodItem("Turkey", 1, "Bob's Butcher", 1, true, false, 1.50, 5.00, plan.getBin(20), facts, "pound", 5,"Meats", "July 5, 2016", "Gluten-free");
         Item i17   = new FoodItem("Sour Cream", 1, "Billy's Dairy" , 1, true, false, 1.00, 2.00, plan.getBin(12), facts, "ounce", 30, "Dairy", "June 29, 2016",  "Vegetarian");
-        Item i18   = new FoodItem("Tilapia", 1, "Bob's Butcher", 1, true, false, 5.00, 11.50, plan.getBin(20), facts, "pound", 5,"Meats", "July 5, 2016", "Gluten-free");
-        Item i19   = new HouseholdItem("Shampoo", 0, "Supply Co", 50, true, true, 5.00, 10.00, plan.getBin(58),false);
-        Item i20   = new HouseholdItem("Deodorant", 0, "Supply Co", 50, true, true, 4.50, 7.50, plan.getBin(53),false);
+        Item i18   = new FoodItem("Tilapia", 1, "Bob's Butcher", 1, true, false, 5.00, 11.50, plan.getBin(64), facts, "pound", 5,"Meats", "July 5, 2016", "Gluten-free");
+        Item i19   = new HouseholdItem("Shampoo", 0, "Supply Co", 50, true, true, 5.00, 10.00, plan.getBin(37),false);
+        Item i20   = new HouseholdItem("Deodorant", 0, "Supply Co", 50, true, true, 4.50, 7.50, plan.getBin(33),false);
         
+        
+        //household 2
+        Item i21    =new HouseholdItem("Band-Aids", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(2), false); 
+        Item i22    =new HouseholdItem("Stapler", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(3), false); 
+        Item i23    =new HouseholdItem("Calculator", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(5), false); 
+        Item i24    =new HouseholdItem("Napkins", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(8), false); 
+        Item i25    =new HouseholdItem("Bug spray", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(19), false); 
+        Item i26    =new HouseholdItem("Light bulb", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(24), false); 
+        Item i27    =new HouseholdItem("Sunglasses", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(26), false); 
+        Item i28    =new HouseholdItem("Paper plates", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(28), false); 
+        Item i29    =new HouseholdItem("Oven rack", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(32), false); 
+        Item i30    =new HouseholdItem("Scissors", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(38), false); 
+        Item i31    =new HouseholdItem("Spatula", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(49), false); 
+        Item i32    =new HouseholdItem("Frying pan", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(50), false); 
+        Item i33    =new HouseholdItem("Parchment paper", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(51), false); 
+        Item i34    =new HouseholdItem("Toilet bowl cleaner", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(60), false); 
+        Item i35    =new HouseholdItem("Knife stand", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(63), false); 
+        Item i36    =new HouseholdItem("Sharpies", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(72), false); 
+        Item i37    =new HouseholdItem("Pens", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(77), false); 
+        Item i38    =new HouseholdItem("Looseleaf paper", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(78), false); 
+        Item i39    =new HouseholdItem("Pencils", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(79), false); 
+        Item i40    =new HouseholdItem("Notebook", 0,"J&J", 50,true,true,0.80,2.10, plan.getBin(61), false); 
         
         
         items.add(i1);
@@ -152,6 +174,27 @@ public class StoreFactory
         items.add(i18);
         items.add(i19);
         items.add(i20);
+        
+        items.add(i21);
+        items.add(i22);
+        items.add(i23);
+        items.add(i24);
+        items.add(i25);
+        items.add(i26);
+        items.add(i27);
+        items.add(i28);
+        items.add(i29);
+        items.add(i30);
+        items.add(i31);
+        items.add(i32);
+        items.add(i33);
+        items.add(i34);
+        items.add(i35);
+        items.add(i36);
+        items.add(i37);
+        items.add(i38);
+        items.add(i39);
+        items.add(i40);
         
         
         
